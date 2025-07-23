@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TMM Assistant | Chatbot</title>
+    <meta name="author" content="Thapelo Madiba Masebe">
+    
+    <!-- Link to the stylesheet using Flask's url_for -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    
+    <!-- Link to the favicon -->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Main container for the chatbot interface -->
+    <main class="chat-container">  
+        <div class="chat-header">
+          <h1>BLENDERBOT ASSISTANT</h1>
+        </div>
+
+        <!-- The chat messages will be dynamically added here by JavaScript -->
+        <div class="messages-container" id="messages-container"></div>
+        
+        <!-- The form for user input -->
+        <form class="chat-form" id="message-form">
+          <textarea id="message-input" placeholder="Send a message..." rows="1"></textarea>
+          <button type="submit">SEND</button> 
+        </form>
+    </main>
+    <!-- End chatbot container -->
+
+    <footer>
+        <p>
+            Copyright © Thapelo Madiba Masebe 2024 - View the <a href="https://github.com/Cozisoul/flask-chatbot-blenderbot" target="_blank">source code on GitHub</a>
+        </p>
+    </footer>
+
+    <!-- Link to the JavaScript file that powers the chat logic -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
