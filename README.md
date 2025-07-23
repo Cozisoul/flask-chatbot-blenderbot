@@ -10,7 +10,7 @@ This repository contains a full-stack, conversational AI chatbot application. Th
 
 ## Live Demo & Screenshot
 
-**You can try the live application here:** [https://huggingface.co/spaces/coziSoul/flask-chatbot-blenderbot]
+**You can try the live application here:** [https://huggingface.co/spaces/coziSoul/flask-chatbot-blenderbot](https://huggingface.co/spaces/coziSoul/flask-chatbot-blenderbot)
 
 *The final application, styled according to a personal brand bible, showing a live conversation.*
 ![Final Application Screenshot](./final-app-screenshot.png) <!-- TODO: Add a screenshot of your final app and name it correctly! -->
